@@ -20,7 +20,7 @@ module.exports = {
         filename: './public/bundle.js'
     },
     resolve: {
-        modules: [__dirname, 'node_modules'], 
+        modules: [__dirname, 'node_modules'],
         alias: {
             Main: 'app/components/Main.jsx',
             Nav: 'app/components/Nav.jsx',
@@ -30,7 +30,8 @@ module.exports = {
             WeatherForm: 'app/components/WeatherForm.jsx',
             WeatherMessage: 'app/components/WeatherMessage.jsx',
             openWeatherMap: 'app/api/openWeatherMap.jsx',
-            ErrorModal: 'app/components/ErrorModal.jsx'
+            ErrorModal: 'app/components/ErrorModal.jsx',
+            applicationStyles: 'app/styles/app.css'
         },
         extensions: ['*', '.js', '.jsx']
     },
